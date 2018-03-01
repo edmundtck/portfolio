@@ -1,6 +1,6 @@
 .description {
   height: 5.3rem;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 .col-5 {
   margin-bottom: 30px;
