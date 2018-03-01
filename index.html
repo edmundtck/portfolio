@@ -8,117 +8,143 @@
 
   <title>Edmund Portfolio</title>
   <link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
-
+<link href="https://fonts.googleapis.com/css?family=Arvo|Pacifico" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 
 <body>
-  <div class="fullpage">
-  <div class="container text-center">
+
+
+  <header>
     <nav class="nav justify-content-end">
-      <a class="nav-link" href="#">About</a>
+      <a class="nav-link" href="#about-me">About</a>
       <a class="nav-link" href="#portfolio">Portfolio</a>
       <a class="nav-link" href="#contact">Contact</a>
     </nav>
-    <div>
-      <h1>I'm Edmund Teo</h1>
-      <p>a Full Stack Web Developer</p>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="fullpage">
-<div class="container text-center">
-      <h2>About Me</h2>
-      <p>A web developer who excels in logical thinking and problem solving.<br />
-        Focusing on mastering the skills and building robust applications.<br />
-        A strong believer of continuous learning, upgrading of skills and exploring new technologies.
-      </p>
-
-      <div class="row">
-        <div class="col-5 offset-1 text-left">
-          <h3>Languages</h3>
-          <p>HTML | CSS | Javascript | Ruby</p>
-        </div>
-        <div class="col-5 text-left">
-          <h3>Frameworks & Libraries</h3>
-          <p>jQuery| Node.js | Express | Rails | React | Bootstrap | MaterializeCSS</p>
-        </div>
-        <div class="col-5 offset-1 text-left">
-          <h3>Databases</h3>
-          <p>MongoDB | PostgreSQL</p>
-        </div>
-        <div class="col-5 text-left">
-          <h3>Others</h3>
-          <p>Git | Heroku</p>
-        </div>
+    <div class="container text-center">
+      <div class="name">
+        <h1>I'm Edmund Teo</h1>
+        <h4>a Full Stack Web Developer</h4>
       </div>
     </div>
-</div>
+  </header>
 
 
-    <div class="fullpage" id="portfolio">
-    <div class="container text-center">
-<h2>Portfolio</h2>
-<div class="row">
-<div class="col-6">
-  <img src="https://picsum.photos/450/300" alt="Avatar" class="img-fluid center">
-</div>
 
-<div class="col-6">
-  <img src="https://picsum.photos/450/300" alt="Avatar" class="img-fluid center">
-</div>
-
-<div class="col-6">
-  <img src="https://picsum.photos/450/300" alt="Avatar" class="img-fluid center">
-</div>
-
-<div class="col-6">
-  <img src="https://picsum.photos/450/300" alt="Avatar" class="img-fluid center">
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="fullpage" id="contact">
-<div class="container text-center">
-
-<h2>Contact Me</h2>
-<div class="row">
-
-<div class="col-4">
-  <i class="far fa-envelope fa-7x"></i>
-  <h3>Email</h3>
+  <main>
+    <section id="about-me">
+      <div class="container text-center vertical-about">
+        <h2>About Me</h2><br />
+        <p>A web developer who excels in logical thinking and problem solving<br /> Focusing on mastering the skills and building robust applications<br /> A strong believer of continuous learning, upgrading of skills and exploring new technologies
+        </p>
+        <br />
+        <div class="row">
+          <div class="col-5 offset-1 text-left">
+            <h3>Languages</h3>
+            <p>HTML | CSS | Javascript | Ruby</p>
+          </div>
+          <div class="col-5 text-left">
+            <h3>Frameworks & Libraries</h3>
+            <p>jQuery| Node.js | Express | Rails | React | Bootstrap | MaterializeCSS</p>
+          </div>
+          <div class="col-5 offset-1 text-left">
+            <h3>Databases</h3>
+            <p>MongoDB | PostgreSQL</p>
+          </div>
+          <div class="col-5 text-left">
+            <h3>Others</h3>
+            <p>Git | Heroku</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
-</div>
+    <section id="portfolio">
+      <div class="container text-center">
+        <br />
+        <h2>Portfolio</h2><br />
+        <div class="row">
 
-<div class="col-4">
-<i class="fab fa-github fa-7x"></i>
-<h3>GitHub</h3>
-</div>
+          <div class="col-5 offset-1">
+            <img src="images/Media-01.jpg" alt="Avatar" class="img-fluid center">
+            <h3>Zeerowink</h3>
+            <p class="description">An interactive game that focus on memory and concentration skills. Solve puzzles based on given sequence within time limit.</p>
+            <a class="btn btn-primary" href="https://github.com/edmundtck/project-1" target="_blank"><i class="fab fa-github"></i> Github</a>
+            <a class="btn btn-primary" href="https://edmundtck.github.io/project-1" target="_blank">View Project <i class="fas fa-chevron-circle-right"></i></a>
+          </div>
 
-<div class="col-4">
-<i class="fab fa-linkedin fa-7x"></i>
-<h3>Linkedin</h3>
-</div>
-</div>
+          <div class="col-5">
+            <img src="images/Media-02.jpg" alt="Avatar" class="img-fluid center">
+            <h3>Yummy Thoughts</h3>
+            <p class="description">A food review site for users to share yummy food through photos and reviews.</p>
+            <a class="btn btn-primary" href="https://github.com/edmundtck/project-2" target="_blank"><i class="fab fa-github"></i> Github</a>
+            <a class="btn btn-primary" href="https://yummythoughts.herokuapp.com/" target="_blank">View Project <i class="fas fa-chevron-circle-right"></i></a>
+          </div>
 
-</div>
-</div>
+          <div class="col-5 offset-1">
+            <img src="images/Media-03.jpg" alt="Avatar" class="img-fluid center">
+            <h3>Local Square</h3>
+            <p class="description">An online business directory and networking platform that creates a community for small scale local businesses and individuals to collaborate.</p>
+            <a class="btn btn-primary" href="https://github.com/edmundtck/project-3" target="_blank"><i class="fab fa-github"></i> Github</a>
+            <a class="btn btn-primary" href="https://localsquare.herokuapp.com/" target="_blank">View Project <i class="fas fa-chevron-circle-right"></i></a>
+          </div>
 
-<div class="fullpage">
-<div class="container text-center">
-<p>&copy; 2018 Edmund Teo. All rights reserved.</p>
-</div>
-</div>
+          <div class="col-5">
+            <img src="images/Media-04.jpg" alt="Avatar" class="img-fluid center">
+            <h3>Tripcollab v2</h3>
+            <p class="description">A single page application providing a platform for travellers to collaborate and input their ideas that consolidate into a list of travel plan and itinerary.</p>
+            <a class="btn btn-primary" href="https://github.com/edmundtck/project-4" target="_blank"><i class="fab fa-github"></i> Github</a>
+            <a class="btn btn-primary" href="https://tripcollab-v2.herokuapp.com/" target="_blank">View Project <i class="fas fa-chevron-circle-right"></i></a>
+          </div>
 
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <div class="container text-center vertical-contact">
+        <h2>Contact Me</h2><br />
+        <div class="row">
+
+          <div class="col-4">
+            <a href="mailto:edmundteo.ck@gmail.com">
+              <i class="far fa-envelope fa-7x"></i>
+              <h3>Email</h3>
+            </a>
+          </div>
+
+          <div class="col-4">
+            <a href="https://www.github.com/edmundtck" target="_blank">
+              <i class="fab fa-github fa-7x"></i>
+              <h3>GitHub</h3>
+            </a>
+          </div>
+
+          <div class="col-4">
+            <a href="https://www.linkedin.com/in/edmundtck" target="_blank">
+              <i class="fab fa-linkedin fa-7x"></i>
+              <h3>Linkedin</h3>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+
+  <footer>
+    <div class="container text-center vertical-footer">
+      <p>&copy; 2018 Edmund Teo. All rights reserved.</p>
+    </div>
+  </footer>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

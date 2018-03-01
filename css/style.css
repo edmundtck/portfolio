@@ -1,9 +1,77 @@
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.description {
+  height: 5.3rem;
+  overflow-y: scroll;
+}
+.col-5 {
+  margin-bottom: 30px;
+}
+ body {
+   font-family: 'Arvo', serif;
+ }
+
+header {
+  height: 100vh;
+  background-image: url('../images/abstract-wallpapers.jpg');
+  background-size:cover;
 }
 
-.image {
-  margin: 10px;
+.name {
+  font-family: 'Pacifico', cursive;
+  padding-top: 12rem;
+  color: black;
+  text-shadow: 4px 4px 6px steelblue;
+}
+
+.name h1 {
+  font-size: 4rem;
+}
+
+section {
+  min-height: 90vh;
+}
+
+#about-me {
+  background-color: lightcyan;
+}
+
+#contact {
+  background-color: honeydew;
+}
+
+
+section, footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+nav a {
+  font-size: 1.4rem;
+  color: powderblue;
+  text-shadow: 2px 2px 0px steelblue;
+}
+h2 {
+  font-size: 2.5rem;
+}
+nav a:hover {
+  color: ghostwhite;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 10vh;
+}
+.vertical-about {
+/* padding-top: 3rem; */
+}
+.vertical-footer {
+  /* padding-top: 1rem; */
+}
+.vertical-contact {
+  /* padding-top: 8rem; */
+}
+
+a:hover {
+  text-decoration: none;
 }
