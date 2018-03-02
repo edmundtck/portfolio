@@ -1,9 +1,9 @@
 .description {
-  height: 5.3rem;
+  height: 7rem;
   overflow-y: auto;
 }
 .col-5 {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
  body {
    font-family: 'Arvo', serif;
@@ -13,17 +13,37 @@ header {
   height: 100vh;
   background-image: url('../images/abstract-wallpapers.jpg');
   background-size:cover;
+  position: relative;
 }
 
 .name {
   font-family: 'Pacifico', cursive;
-  padding-top: 12rem;
+  position: absolute;
+  top: 50%;
+  left : 50%;
+  transform: translate(-50%, -50%);
   color: black;
   text-shadow: 4px 4px 6px steelblue;
 }
 
 .name h1 {
   font-size: 5rem;
+}
+.arrow-down {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.arrow-down h5 {
+  color: lightcyan;
+}
+
+.arrow-down h5:hover {
+  color: white;
+  background-color:rgba(0, 0, 0, 0.5);
+  padding: 5px 15px;
 }
 
 section {
@@ -44,7 +64,6 @@ section h2 {
   background-color: honeydew;
 }
 
-
 section, footer{
   display: flex;
   flex-direction: column;
@@ -52,8 +71,8 @@ section, footer{
 }
 nav a {
   font-size: 1.4rem;
-      color: #17a2b8;
-      text-shadow: 2px 2px 2px black;
+  color: lightcyan;
+  text-shadow: 2px 2px 2px black;
 }
 h2 {
   font-size: 2.5rem;
@@ -74,15 +93,7 @@ footer {
   color: white;
   height: 10vh;
 }
-.vertical-about {
-/* padding-top: 3rem; */
-}
-.vertical-footer {
-  /* padding-top: 1rem; */
-}
-.vertical-contact {
-  /* padding-top: 8rem; */
-}
+
 
 a:hover {
   text-decoration: none;
