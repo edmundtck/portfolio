@@ -1,19 +1,32 @@
-.description {
-  height: 7rem;
-  overflow-y: auto;
+body {
+  font-family: 'Arvo', serif;
 }
-.col-5 {
-  margin-bottom: 50px;
-}
- body {
-   font-family: 'Arvo', serif;
- }
 
 header {
   height: 100vh;
   background-image: url('../images/abstract-wallpapers.jpg');
   background-size:cover;
   position: relative;
+}
+
+nav {
+  background-color: transparent;
+  transition: 1s;
+}
+
+nav a {
+  font-size: 1.4rem;
+  color: lightcyan;
+  text-shadow: 2px 2px 2px black;
+}
+
+nav a:hover {
+  color: ghostwhite;
+  background-color: black;
+}
+
+h2 {
+  font-size: 2.5rem;
 }
 
 .name {
@@ -29,6 +42,7 @@ header {
 .name h1 {
   font-size: 5rem;
 }
+
 .arrow-down {
   position: absolute;
   bottom: 5%;
@@ -42,18 +56,29 @@ header {
 
 .arrow-down h5:hover {
   color: white;
-  background-color:rgba(0, 0, 0, 0.5);
+  background-color: black;
   padding: 5px 15px;
 }
 
+#portfolio h2 {
+  margin-top: 6rem;
+}
+
+#portfolio {
+  margin-bottom: 2rem;
+}
+
+#portfolio article {
+  margin-bottom: 60px;
+}
+
 section {
-  min-height: 90vh;
+  min-height: 95vh;
 }
 
 section h2 {
   font-family: 'Pacifico', cursive;
   text-shadow: 2px 2px 0px lightsteelblue;
-
 }
 
 #about-me {
@@ -64,26 +89,21 @@ section h2 {
   background-color: honeydew;
 }
 
+.description {
+  height: 7rem;
+  overflow-y: auto;
+}
+
 section, footer{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-nav a {
-  font-size: 1.4rem;
-  color: lightcyan;
-  text-shadow: 2px 2px 2px black;
-}
-h2 {
-  font-size: 2.5rem;
-}
-nav a:hover {
-  color: ghostwhite;
-  background-color:rgba(0, 0, 0, 0.5);
-}
+
 #contact a {
   color: #17a2b8;
 }
+
 #contact a:hover {
   color: #138496;
 }
@@ -93,7 +113,6 @@ footer {
   color: white;
   height: 10vh;
 }
-
 
 a:hover {
   text-decoration: none;
